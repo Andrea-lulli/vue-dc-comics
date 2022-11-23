@@ -23,18 +23,9 @@
 </template>
 
 <script>
-
-import FooterIcon from './components/FooterIcon.vue'
-
 export default {
-  name: "HeaderComp",
-  components: {
-    FooterIcon,
-  }
-};
-
-
-
+        name: "HeaderComp"
+    }
   
 </script>
 
@@ -46,10 +37,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px 0;
+  background-color: white;
 }
 
 div img {
-  width: 40%;
+  width: 27%;
 }
 
 ul {

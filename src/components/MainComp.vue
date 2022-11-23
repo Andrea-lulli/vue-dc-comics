@@ -9,22 +9,22 @@
       </div>
 
       <div class="card">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        <img src="../assets/img/buy-comics-merchandise.png" alt="" />
         <span>DIGITAL COMICS</span>
       </div>
 
       <div class="card">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        <img src="../assets/img/buy-comics-subscriptions.png" alt="" />
         <span>DIGITAL COMICS</span>
       </div>
 
       <div class="card">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        <img src="../assets/img/buy-comics-shop-locator.png" alt="" />
         <span>DIGITAL COMICS</span>
       </div>
 
       <div class="card">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="" />
+        <img src="../assets/img/buy-dc-power-visa.svg" alt="" />
         <span>DIGITAL COMICS</span>
       </div>
     </div>
@@ -43,17 +43,16 @@ export default {
 .content {
   background-color: black;
   width: 100%;
-  height: 50px;
+  height: 200px;
 }
 .conteiner{
-    background-color: blue;
+    background-color: rgba(2,130,249,255);
   width: 100%;
   display: flex;
   justify-content: center;
  
 }
 .shop {
-  background-color: blue;
   width: 80%;
   display: flex;
   align-items: center;

@@ -54,7 +54,23 @@
 
 
     </div>
-    <FooterComp/>
+    <div class="footer-icon">
+        <div class="conteiner flex">
+            <div class="sign-up">
+                <a>SIGN-UP NOW!</a>
+            </div>
+            <div class="icon">
+                <span>FOLLOW US</span>
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-periscope.png" alt="">
+                <img src="../assets/img/footer-twitter.png" alt="">
+                <img src="../assets/img/footer-youtube.png" alt="">
+                <img src="../assets/img/footer-pinterest.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    
 </footer>
 
 
@@ -62,16 +78,24 @@
 </template>
 
 <script>
+
+
     export default {
-        name: "FooterComp"
+        name: "FooterComp",
+        components: {
+    
+  }
     }
 </script>
+
+
 
 <style lang="scss" scoped>
 footer{
     background-image:url(../assets/img/footer-bg.jpg) ;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .conteiner{
     width: 80%;
@@ -103,6 +127,59 @@ ul{
 }
 .titolo{
    color: white;
+}
+
+.footer-icon{
+    background-color: rgba(48,48,48,255)  ;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    
+    
+
+.flex{
+display: flex;
+width: 80%;
+align-items: center;
+    
+
+}
+}
+
+.sign-up{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: start;
+    
+}
+
+.icon{
+    flex-basis: 79%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+div{
+    span{
+        color: rgba(2,130,249,255);
+        margin-right: 10px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    img {
+margin: 0 8px;
+    };
+}
+
+div{
+    a{
+        border: 2px solid rgba(2,130,249,255);
+        padding: 10px 10px;
+        color: white;
+    }
 }
 
 </style>
