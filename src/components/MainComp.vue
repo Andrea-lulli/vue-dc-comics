@@ -64,8 +64,9 @@ export default {
   color: white;
   flex-basis: 24%;
   justify-content: space-around;
+  font-size: 14px ;
   img {
-    width: 20%;
+    width: 17%;
   }
 }
 </style>

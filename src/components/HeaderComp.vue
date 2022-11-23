@@ -6,16 +6,16 @@
       </div>
       <nav >
         <ul>
-          <li>Characters</li>
-          <li>Comics</li>
-          <li>Comics</li>
-          <li>Comics</li>
-          <li>Comics</li>
-          <li>Co</li>
-          <li>Comics</li>
-          <li>Comics</li>
-          <li>Comics</li>
-          <li>Comics</li>
+          <li>CHARAACTERS</li>
+          <li>COMICS</li>
+          <li>MOVIES</li>
+          <li>TV</li>
+          <li>GAMES</li>
+          <li>COLLECTIBLES</li>
+          <li>VIDEOS</li>
+          <li>FANS</li>
+          <li>NEWS</li>
+          <li>SHOP</li>
         </ul>
       </nav>
     </div>
@@ -51,6 +51,9 @@ ul {
   li {
     list-style-type: none;
     margin: 0 5px;
+    font-weight: 700;
+    color: grey;
+    font-size: 14px;
   }
 }
 
