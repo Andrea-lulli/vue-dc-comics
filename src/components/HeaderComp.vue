@@ -47,6 +47,7 @@ div img {
 
 ul {
   display: flex;
+  
 
   li {
     list-style-type: none;
@@ -54,7 +55,14 @@ ul {
     font-weight: 700;
     color: grey;
     font-size: 14px;
+    border-bottom: 3px solid white  ;
+    
   }
+}
+
+li:hover{
+  color: rgba(2,130,249,255);
+   border-bottom: 3px solid rgba(2,130,249,255)  ;
 }
 
 .conteiner {
@@ -73,5 +81,6 @@ nav{
 flex-basis: 80%;
  justify-content: end;
   display: flex;
+  
 }
 </style>
