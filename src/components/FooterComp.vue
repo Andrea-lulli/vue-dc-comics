@@ -6,43 +6,43 @@
             <ul>
                 <li class="titolo">DC COMICS</li>
                 <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
+                <li>Comics</li>
+                <li>Movies</li>
+                <li>Tv</li>
+                <li>Games</li>
+                <li>Videos</li>
+                <li>News</li>
             </ul>
             <ul>
-                <li class="titolo">Shop</li>
-                <li>Characters</li>
-                <li>Characters</li>
+                <li class="titolo">SHOP</li>
+                <li>Shop DC</li>
+                <li>Shop DC Collectibles</li>
             </ul>
         </div>
         <div>
             <ul>
                 <li class="titolo">DC</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
+                <li>Tems of use</li>
+                <li>Privacy</li>
+                <li>Ad Choise</li>
+                <li>Adversting</li>
+                <li>Jobs</li>
+                <li>Subscriptions</li>
+                <li>Talent</li>
+                <li>CPSC Certificates</li>
+                <li>Ratings</li>
+                <li>Shop Help</li>
+                <li>Contact Us</li>
             </ul>  
         </div>
         <div>
             <ul>
                 <li class="titolo">SITES</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>
-                <li>Characters</li>               
+                <li>DC</li>
+                <li>MAD</li>
+                <li>DC Kids</li>
+                <li>DC Universe</li>
+                <li>DC Power Visa</li>               
             </ul>  
         </div>
 
@@ -107,12 +107,14 @@ footer{
 
 .DcComics{
     display: flex;
-    flex-basis: 30%;
+    flex-basis: 40%;
     margin: 25px 0;
 }
 
 .img-logo{
-   flex-basis: 70%; 
+   flex-basis: 60%; 
+   justify-content: center;
+   display: flex;
    
    img{
     width: 50%;
@@ -122,11 +124,17 @@ footer{
 ul{
     list-style-type: none;
     li{
-        margin: 5px 20px;
+        margin: 5px 0px;
+        margin-right: 25px;
+
+        font-size: 12px;
     }
 }
 .titolo{
    color: white;
+   font-weight: 700;
+   font-size: 16px;
+   margin: 10px 0;
 }
 
 .footer-icon{
