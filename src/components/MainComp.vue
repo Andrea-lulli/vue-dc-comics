@@ -1,10 +1,14 @@
 <template>
   <div>
     <div class="content">
+
+      <!-- jumbotron con img  -->
       <div class="jumbotron"></div>
       <div>
         <spam>CURRENT SERIES</spam>
       </div>
+
+      <!-- box card con com card dinamiche -->
       <div class="box-card">
         <MainCardComp
           v-for="(elem, index) in Prodotti"
@@ -14,6 +18,8 @@
       </div>
       <button>LOAD MORE</button>
     </div>
+
+    <!-- conteiner sez shop -->
     <div class="conteiner">
       <div class="shop">
         <div class="card">

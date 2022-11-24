@@ -1,4 +1,5 @@
 <template>
+  <!-- footer con elenco  -->
   <footer>
     <div class="conteiner">
       <div class="DcComics">
@@ -47,10 +48,10 @@
         </div>
       </div>
 
-      <div class="img-logo">
-        
-      </div>
+      <div class="img-logo"></div>
     </div>
+
+    <!-- ultimo footer con icone -->
     <div class="footer-icon">
       <div class="conteiner flex">
         <div class="sign-up">
@@ -79,7 +80,6 @@ export default {
 
 
 <style lang="scss" scoped>
-
 footer {
   background-image: url(../assets/img/footer-bg.jpg);
   display: flex;
