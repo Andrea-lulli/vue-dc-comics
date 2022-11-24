@@ -4,7 +4,7 @@
       <div class="logo">
         <img src="../assets/img/dc-logo.png" alt="logo" />
       </div>
-      <nav >
+      <nav>
         <ul>
           <li>CHARAACTERS</li>
           <li>COMICS</li>
@@ -24,9 +24,8 @@
 
 <script>
 export default {
-        name: "HeaderComp"
-    }
-  
+  name: "HeaderComp",
+};
 </script>
 
 
@@ -47,9 +46,6 @@ div img {
 ul {
   display: flex;
   align-items: center;
-  
-  align-items: center;
-  
 
   li {
     list-style-type: none;
@@ -57,15 +53,14 @@ ul {
     font-weight: 700;
     color: grey;
     font-size: 14px;
-    border-bottom: 3px solid white  ;
+    border-bottom: 3px solid white;
     padding: 30px 0;
-    
   }
 }
 
-li:hover{
-  color: rgba(2,130,249,255);
-   border-bottom: 3px solid rgba(2,130,249,255)  ;
+li:hover {
+  color: rgba(2, 130, 249, 255);
+  border-bottom: 3px solid rgba(2, 130, 249, 255);
 }
 
 .conteiner {
@@ -75,17 +70,16 @@ li:hover{
   align-items: center;
 }
 
-.logo{
+.logo {
   flex-basis: 20%;
   justify-content: start;
   display: flex;
 }
-nav{
-flex-basis: 80%;
- justify-content: end;
- 
+
+nav {
+  flex-basis: 80%;
+  justify-content: end;
+
   display: flex;
-  
-  
 }
 </style>
