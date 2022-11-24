@@ -37,7 +37,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 0;
   background-color: white;
 }
 
@@ -47,6 +46,9 @@ div img {
 
 ul {
   display: flex;
+  align-items: center;
+  
+  align-items: center;
   
 
   li {
@@ -56,6 +58,7 @@ ul {
     color: grey;
     font-size: 14px;
     border-bottom: 3px solid white  ;
+    padding: 30px 0;
     
   }
 }
@@ -80,7 +83,9 @@ li:hover{
 nav{
 flex-basis: 80%;
  justify-content: end;
+ 
   display: flex;
+  
   
 }
 </style>
