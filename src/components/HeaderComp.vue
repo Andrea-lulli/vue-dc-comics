@@ -40,7 +40,7 @@ header {
 }
 
 div img {
-  width: 27%;
+  width: 50px;
 }
 
 ul {
